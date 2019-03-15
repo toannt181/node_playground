@@ -7,7 +7,8 @@ window.axios.defaults.baseURL = API_VERSION
 
 const token = document.head.querySelector('meta[name="csrf-token"]')
 const isFailable = false
-
+// Sua lan 3
+const canFail = false
 if (token) {
   window.axios.defaults.headers.common['X-CSRF-TOKEN'] = token.content
 } else {
