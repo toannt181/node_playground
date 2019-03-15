@@ -1,4 +1,4 @@
-import { API_VERSION } from './constants'
+import { API_VERSION, NEW_VERION } from './constants'
 
 window.axios = require('axios')
 
