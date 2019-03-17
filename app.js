@@ -13,7 +13,6 @@ app.set('view engine', 'html')
 app.set('views', path.join(__dirname, 'src/views'))
 htmlEngine(app)
 
-// NEW LINE IN FIX/1
 
 app.get('/', (req, res) => {
   res.render('index.html')
